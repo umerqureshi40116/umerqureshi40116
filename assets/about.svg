@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="1200" height="210" role="img" aria-label="About: Umer Qureshi, a developer building web, AI and automation solutions. Based in Islamabad, Pakistan. NUTECH graduate, class of 2025. Building at Codematically. Open to freelance work and collaborations.">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#6366f1"/><stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="shim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#7dd3fc" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0v56" fill="none" stroke="#6366f1" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <clipPath id="cc"><rect width="1200" height="210" rx="16"/></clipPath>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+  </defs>
+
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    .sweep{animation:sweep 7s ease-in-out infinite}
+    .orb{animation:orb 16s ease-in-out infinite alternate}
+    .live{animation:live 2.4s ease-in-out infinite}
+    @keyframes sweep{0%{transform:translateX(-320px)}60%,100%{transform:translateX(1420px)}}
+    @keyframes orb{from{transform:translate(0,0)}to{transform:translate(70px,-26px)}}
+    @keyframes live{0%,100%{opacity:1}50%{opacity:.3}}
+    @media (prefers-reduced-motion:reduce){.sweep,.orb,.live{animation:none}}
+  </style>
+
+  <rect width="1200" height="210" fill="#05060c"/>
+  <rect width="1200" height="210" rx="16" fill="#0a0d1a" stroke="#1e2439"/>
+
+  <g clip-path="url(#cc)">
+    <rect width="1200" height="210" fill="url(#grid)" opacity=".5"/>
+    <g filter="url(#soft)" opacity=".26"><circle class="orb" cx="130" cy="180" r="90" fill="#38bdf8"/></g>
+    <g class="sweep"><rect x="-280" y="-80" width="280" height="380" fill="url(#shim)" transform="skewX(-22)"/></g>
+  </g>
+
+  <text class="sans" x="44" y="68" font-size="18" fill="#f4f6fb">Hi, I'm Umer Qureshi — a developer building web, AI</text>
+  <text class="sans" x="44" y="94" font-size="18" fill="#f4f6fb">and automation solutions.</text>
+  <text class="sans" x="44" y="132" font-size="14.5" fill="#7a8299">I design and ship client websites, full-stack apps and</text>
+  <text class="sans" x="44" y="154" font-size="14.5" fill="#7a8299">machine-learning projects, from idea to deployment.</text>
+
+  <rect x="666" y="38" width="1" height="134" fill="#1e2439"/>
+
+  <circle cx="704" cy="57" r="3" fill="#38bdf8"/>
+  <text class="mono" x="718" y="61" font-size="11" letter-spacing="1.4" fill="#7a8299">LOCATION</text>
+  <text class="mono" x="840" y="61" font-size="13.5" fill="#c7cede">Islamabad, Pakistan</text>
+
+  <circle cx="704" cy="93" r="3" fill="#6366f1"/>
+  <text class="mono" x="718" y="97" font-size="11" letter-spacing="1.4" fill="#7a8299">EDUCATION</text>
+  <text class="mono" x="840" y="97" font-size="13.5" fill="#c7cede">NUTECH — Class of 2025</text>
+
+  <circle cx="704" cy="129" r="3" fill="#a78bfa"/>
+  <text class="mono" x="718" y="133" font-size="11" letter-spacing="1.4" fill="#7a8299">STUDIO</text>
+  <text class="mono" x="840" y="133" font-size="13.5" fill="#c7cede">Codematically</text>
+
+  <circle class="live" cx="704" cy="165" r="3" fill="#38bdf8"/>
+  <text class="mono" x="718" y="169" font-size="11" letter-spacing="1.4" fill="#7a8299">STATUS</text>
+  <text class="mono" x="840" y="169" font-size="13.5" fill="#c7cede">Open to freelance &amp; collabs</text>
+</svg>

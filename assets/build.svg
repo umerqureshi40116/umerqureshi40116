@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 226" width="1200" height="226" role="img" aria-label="What I build: Web — responsive, fast, modern websites and full-stack applications. AI and ML — deep learning and prediction models for healthcare, vision and AI apps. Automation — Python scripts and workflows that remove repetitive work.">
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#6366f1"/><stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="shim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#7dd3fc" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0v56" fill="none" stroke="#6366f1" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <clipPath id="c1"><rect x="0" y="6" width="370" height="210" rx="16"/></clipPath>
+    <clipPath id="c2"><rect x="415" y="6" width="370" height="210" rx="16"/></clipPath>
+    <clipPath id="c3"><rect x="830" y="6" width="370" height="210" rx="16"/></clipPath>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="38"/></filter>
+  </defs>
+
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    .s1{animation:sw 7s ease-in-out infinite}
+    .s2{animation:sw 7s ease-in-out infinite;animation-delay:.6s}
+    .s3{animation:sw 7s ease-in-out infinite;animation-delay:1.2s}
+    .spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+    .float{animation:float 5s ease-in-out infinite alternate}
+    .blip{animation:blip 3s ease-in-out infinite}
+    @keyframes sw{0%{transform:translateX(-260px)}60%,100%{transform:translateX(430px)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes float{from{transform:translateY(0)}to{transform:translateY(-4px)}}
+    @keyframes blip{0%,100%{opacity:.25}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){.s1,.s2,.s3,.spin,.float,.blip{animation:none}}
+  </style>
+
+  <rect width="1200" height="226" fill="#05060c"/>
+
+  <!-- card 1: web -->
+  <rect x="0" y="6" width="370" height="210" rx="16" fill="#0a0d1a" stroke="#1e2439"/>
+  <g clip-path="url(#c1)">
+    <rect x="0" y="6" width="370" height="210" fill="url(#grid)" opacity=".5"/>
+    <g filter="url(#soft)" opacity=".28"><circle cx="330" cy="30" r="58" fill="#38bdf8"/></g>
+    <g class="s1"><rect x="-240" y="-60" width="240" height="340" fill="url(#shim)" transform="skewX(-22)"/></g>
+  </g>
+  <rect x="30" y="34" width="46" height="46" rx="13" fill="#101426" stroke="#1e2439"/>
+  <g transform="translate(53 57)">
+    <g class="float" fill="none" stroke="#38bdf8" stroke-width="1.7" stroke-linecap="round">
+      <circle cx="0" cy="0" r="10"/><path d="M-10 0h20M0-10c3.8 3.7 3.8 16.3 0 20M0-10c-3.8 3.7-3.8 16.3 0 20"/>
+    </g>
+  </g>
+  <text class="sans" x="30" y="122" font-size="19" font-weight="700" fill="#f4f6fb">Web</text>
+  <text class="sans" x="30" y="152" font-size="13.5" fill="#7a8299">Responsive, fast, modern websites</text>
+  <text class="sans" x="30" y="174" font-size="13.5" fill="#7a8299">and full-stack applications.</text>
+  <rect x="30" y="192" width="34" height="2" rx="1" fill="url(#acc)"/>
+
+  <!-- card 2: ai -->
+  <rect x="415" y="6" width="370" height="210" rx="16" fill="#0a0d1a" stroke="#1e2439"/>
+  <g clip-path="url(#c2)">
+    <rect x="415" y="6" width="370" height="210" fill="url(#grid)" opacity=".5"/>
+    <g filter="url(#soft)" opacity=".28"><circle cx="745" cy="30" r="58" fill="#6366f1"/></g>
+    <g class="s2"><rect x="175" y="-60" width="240" height="340" fill="url(#shim)" transform="skewX(-22)"/></g>
+  </g>
+  <rect x="445" y="34" width="46" height="46" rx="13" fill="#101426" stroke="#1e2439"/>
+  <g transform="translate(468 57)" fill="none" stroke="#6366f1" stroke-width="1.7" stroke-linecap="round">
+    <rect x="-7" y="-7" width="14" height="14" rx="3.5"/>
+    <path d="M-3-11.5v4.5M3-11.5v4.5M-3 7v4.5M3 7v4.5M-11.5-3h4.5M-11.5 3h4.5M7-3h4.5M7 3h4.5"/>
+    <circle class="blip" cx="0" cy="0" r="2.2" fill="#a78bfa" stroke="none"/>
+  </g>
+  <text class="sans" x="445" y="122" font-size="19" font-weight="700" fill="#f4f6fb">AI &amp; ML</text>
+  <text class="sans" x="445" y="152" font-size="13.5" fill="#7a8299">Deep learning and prediction models</text>
+  <text class="sans" x="445" y="174" font-size="13.5" fill="#7a8299">for healthcare, vision and AI apps.</text>
+  <rect x="445" y="192" width="34" height="2" rx="1" fill="url(#acc)"/>
+
+  <!-- card 3: automation -->
+  <rect x="830" y="6" width="370" height="210" rx="16" fill="#0a0d1a" stroke="#1e2439"/>
+  <g clip-path="url(#c3)">
+    <rect x="830" y="6" width="370" height="210" fill="url(#grid)" opacity=".5"/>
+    <g filter="url(#soft)" opacity=".28"><circle cx="1160" cy="30" r="58" fill="#a78bfa"/></g>
+    <g class="s3"><rect x="590" y="-60" width="240" height="340" fill="url(#shim)" transform="skewX(-22)"/></g>
+  </g>
+  <rect x="860" y="34" width="46" height="46" rx="13" fill="#101426" stroke="#1e2439"/>
+  <g transform="translate(883 57)">
+    <g class="spin" fill="none" stroke="#a78bfa" stroke-width="1.7" stroke-linecap="round">
+      <circle cx="0" cy="0" r="4.5"/>
+      <circle cx="0" cy="0" r="10" stroke-opacity=".3"/>
+      <path d="M0-11.5v3.4M0 8.1v3.4M-11.5 0h3.4M8.1 0h3.4M-8.1-8.1l2.4 2.4M5.7 5.7l2.4 2.4M8.1-8.1l-2.4 2.4M-5.7 5.7l-2.4 2.4"/>
+    </g>
+  </g>
+  <text class="sans" x="860" y="122" font-size="19" font-weight="700" fill="#f4f6fb">Automation</text>
+  <text class="sans" x="860" y="152" font-size="13.5" fill="#7a8299">Python scripts and workflows that</text>
+  <text class="sans" x="860" y="174" font-size="13.5" fill="#7a8299">remove repetitive work.</text>
+  <rect x="860" y="192" width="34" height="2" rx="1" fill="url(#acc)"/>
+</svg>
