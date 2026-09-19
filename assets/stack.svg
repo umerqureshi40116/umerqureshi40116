@@ -1,57 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 100" width="1200" height="100" role="img" aria-label="Tech stack: Python, JavaScript, HTML5, CSS3, Jupyter, Git, GitHub">
-  <defs>
-    <linearGradient id="fadeX" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-      <stop offset=".08" stop-color="#fff" stop-opacity="1"/>
-      <stop offset=".92" stop-color="#fff" stop-opacity="1"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
-    </linearGradient>
-    <mask id="mfade"><rect width="1200" height="100" fill="url(#fadeX)"/></mask>
-
-    <g id="set">
-      <rect x="0" y="30" width="102" height="40" rx="20" fill="#101426" stroke="#1e2439"/>
-      <circle cx="18" cy="50" r="4" fill="#4b8bbe"/>
-      <text class="mono" x="32" y="55" font-size="13" letter-spacing=".6" fill="#c7cede">Python</text>
-
-      <rect x="120" y="30" width="136" height="40" rx="20" fill="#101426" stroke="#1e2439"/>
-      <circle cx="138" cy="50" r="4" fill="#f7df1e"/>
-      <text class="mono" x="152" y="55" font-size="13" letter-spacing=".6" fill="#c7cede">JavaScript</text>
-
-      <rect x="274" y="30" width="94" height="40" rx="20" fill="#101426" stroke="#1e2439"/>
-      <circle cx="292" cy="50" r="4" fill="#e34f26"/>
-      <text class="mono" x="306" y="55" font-size="13" letter-spacing=".6" fill="#c7cede">HTML5</text>
-
-      <rect x="386" y="30" width="86" height="40" rx="20" fill="#101426" stroke="#1e2439"/>
-      <circle cx="404" cy="50" r="4" fill="#38bdf8"/>
-      <text class="mono" x="418" y="55" font-size="13" letter-spacing=".6" fill="#c7cede">CSS3</text>
-
-      <rect x="490" y="30" width="111" height="40" rx="20" fill="#101426" stroke="#1e2439"/>
-      <circle cx="508" cy="50" r="4" fill="#f37626"/>
-      <text class="mono" x="522" y="55" font-size="13" letter-spacing=".6" fill="#c7cede">Jupyter</text>
-
-      <rect x="619" y="30" width="77" height="40" rx="20" fill="#101426" stroke="#1e2439"/>
-      <circle cx="637" cy="50" r="4" fill="#f05032"/>
-      <text class="mono" x="651" y="55" font-size="13" letter-spacing=".6" fill="#c7cede">Git</text>
-
-      <rect x="714" y="30" width="102" height="40" rx="20" fill="#101426" stroke="#1e2439"/>
-      <circle cx="732" cy="50" r="4" fill="#f4f6fb"/>
-      <text class="mono" x="746" y="55" font-size="13" letter-spacing=".6" fill="#c7cede">GitHub</text>
-    </g>
-  </defs>
-
-  <style>
-    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
-    .track{animation:march 26s linear infinite}
-    @keyframes march{from{transform:translateX(0)}to{transform:translateX(-834px)}}
-    @media (prefers-reduced-motion:reduce){.track{animation:none}}
-  </style>
-
-  <rect width="1200" height="100" fill="#05060c"/>
-  <g mask="url(#mfade)">
-    <g class="track">
-      <use href="#set" xlink:href="#set"/>
-      <use href="#set" xlink:href="#set" x="834"/>
-      <use href="#set" xlink:href="#set" x="1668"/>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 132" width="1200" height="132" role="img" aria-label="Tech stack: Python, JavaScript, HTML5, CSS3, Jupyter, Git, GitHub">
+<defs>
+<linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#6366f1"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="shim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7dd3fc" stop-opacity="0"/><stop offset=".5" stop-color="#7dd3fc" stop-opacity=".10"/><stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/></linearGradient>
+<linearGradient id="fx" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".05" stop-color="#fff" stop-opacity="1"/><stop offset=".95" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="mx"><rect width="1200" height="132" fill="url(#fx)"/></mask>
+<pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="translate(0 -16)"><path d="M56 0H0v56" fill="none" stroke="#6366f1" stroke-opacity=".075" stroke-width="1"/></pattern>
+<filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="50"/></filter>
+<g id="s"><circle cx="4" cy="96" r="4" fill="#4b8bbe"/><text class="mono" x="18" y="101" font-size="15" letter-spacing=".4" fill="#c7cede">Python</text><circle cx="124" cy="96" r="4" fill="#f7df1e"/><text class="mono" x="138" y="101" font-size="15" letter-spacing=".4" fill="#c7cede">JavaScript</text><circle cx="282" cy="96" r="4" fill="#e34f26"/><text class="mono" x="296" y="101" font-size="15" letter-spacing=".4" fill="#c7cede">HTML5</text><circle cx="393" cy="96" r="4" fill="#38bdf8"/><text class="mono" x="407" y="101" font-size="15" letter-spacing=".4" fill="#c7cede">CSS3</text><circle cx="495" cy="96" r="4" fill="#f37626"/><text class="mono" x="509" y="101" font-size="15" letter-spacing=".4" fill="#c7cede">Jupyter</text><circle cx="624" cy="96" r="4" fill="#f05032"/><text class="mono" x="638" y="101" font-size="15" letter-spacing=".4" fill="#c7cede">Git</text><circle cx="717" cy="96" r="4" fill="#f4f6fb"/><text class="mono" x="731" y="101" font-size="15" letter-spacing=".4" fill="#c7cede">GitHub</text></g></defs>
+<style>.sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+.track{animation:march 28s linear infinite}
+@keyframes march{from{transform:translateX(0)}to{transform:translateX(-833px)}}
+@media (prefers-reduced-motion:reduce){.track{animation:none}}
+</style>
+<rect width="1200" height="132" fill="#05060c"/><g mask="url(#mx)"><rect width="1200" height="132" fill="url(#grid)"/></g><rect x="36" y="0" width="1" height="132" fill="#161b2f"/>
+<circle cx="36.5" cy="52" r="3.5" fill="#38bdf8"/><text class="mono" x="72" y="56" font-size="11.5" letter-spacing="1.6" fill="#38bdf8">03</text><text class="sans" x="106" y="56" font-size="13" font-weight="700" letter-spacing="2.6" fill="#c7cede">TECH STACK</text>
+<g mask="url(#mx)"><g class="track"><use href="#s" xlink:href="#s"/><use href="#s" xlink:href="#s" x="833"/><use href="#s" xlink:href="#s" x="1666"/></g></g>
 </svg>
