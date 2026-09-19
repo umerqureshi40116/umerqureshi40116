@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Umer Qureshi — Web, AI and Automation">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset=".5" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="accentText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset=".0833" stop-color="#6366f1"/>
+      <stop offset=".1667" stop-color="#a78bfa"/>
+      <stop offset=".25" stop-color="#6366f1"/>
+      <stop offset=".3333" stop-color="#38bdf8"/>
+      <stop offset=".4167" stop-color="#6366f1"/>
+      <stop offset=".5" stop-color="#a78bfa"/>
+      <stop offset=".5833" stop-color="#6366f1"/>
+      <stop offset=".6667" stop-color="#38bdf8"/>
+      <stop offset=".75" stop-color="#6366f1"/>
+      <stop offset=".8333" stop-color="#a78bfa"/>
+      <stop offset=".9167" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#7dd3fc" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeX" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".12" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".88" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0v56" fill="none" stroke="#6366f1" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <mask id="mfade"><rect width="1200" height="300" fill="url(#fadeX)"/></mask>
+    <mask id="title">
+      <text class="sans" x="60" y="180" font-size="72" font-weight="800" letter-spacing="-2" fill="#fff">UMER QURESHI</text>
+    </mask>
+    <clipPath id="card"><rect width="1200" height="300"/></clipPath>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <filter id="bloom" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+    .pan{animation:pan 6s ease-in-out infinite alternate}
+    .sweep{animation:sweep 4.5s ease-in-out infinite}
+    .orbA{animation:spin 24s linear infinite;transform-origin:1040px 150px}
+    .orbB{animation:spin 16s linear infinite reverse;transform-origin:1040px 150px}
+    .orbC{animation:spin 32s linear infinite;transform-origin:1040px 150px}
+    .glowA{animation:driftA 14s ease-in-out infinite alternate}
+    .glowB{animation:driftB 18s ease-in-out infinite alternate}
+    .blink{animation:blink 2.4s ease-in-out infinite}
+    @keyframes pan{from{transform:translateX(-300px)}to{transform:translateX(300px)}}
+    @keyframes sweep{0%{transform:translateX(-360px)}100%{transform:translateX(1560px)}}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes driftA{from{transform:translate(0,0)}to{transform:translate(90px,26px)}}
+    @keyframes driftB{from{transform:translate(0,0)}to{transform:translate(-70px,-22px)}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+    @media (prefers-reduced-motion:reduce){
+      .pan,.sweep,.orbA,.orbB,.orbC,.glowA,.glowB,.blink{animation:none}
+    }
+  </style>
+
+  <rect width="1200" height="300" fill="#05060c"/>
+
+  <g clip-path="url(#card)">
+    <g mask="url(#mfade)"><rect width="1200" height="300" fill="url(#grid)"/></g>
+
+    <g filter="url(#soft)" opacity=".5">
+      <circle class="glowA" cx="210" cy="120" r="120" fill="#38bdf8"/>
+      <circle class="glowB" cx="1010" cy="190" r="130" fill="#a78bfa"/>
+    </g>
+
+    <g class="orbA" fill="none" stroke="#38bdf8" stroke-opacity=".35" stroke-width="1.5">
+      <circle cx="1040" cy="150" r="46" stroke-dasharray="52 34"/>
+    </g>
+    <g class="orbB" fill="none" stroke="#6366f1" stroke-opacity=".45" stroke-width="1.5">
+      <circle cx="1040" cy="150" r="68" stroke-dasharray="26 62"/>
+    </g>
+    <g class="orbC" fill="none" stroke="#a78bfa" stroke-opacity=".28" stroke-width="1.5">
+      <circle cx="1040" cy="150" r="92" stroke-dasharray="90 48"/>
+    </g>
+    <circle cx="1040" cy="150" r="5" fill="#38bdf8"/>
+    <circle cx="1040" cy="150" r="11" fill="#38bdf8" opacity=".18"/>
+
+    <rect x="60" y="48" width="180" height="32" rx="16" fill="#101426" stroke="#1e2439"/>
+    <circle class="blink" cx="80" cy="64" r="4" fill="#38bdf8"/>
+    <text class="mono" x="94" y="69" font-size="12" letter-spacing="1.5" fill="#c7cede">OPEN TO WORK</text>
+
+    <g mask="url(#title)" filter="url(#bloom)" opacity=".55">
+      <rect class="pan" x="-300" y="90" width="1800" height="130" fill="url(#accentText)"/>
+    </g>
+    <g mask="url(#title)">
+      <rect class="pan" x="-300" y="90" width="1800" height="130" fill="url(#accentText)"/>
+    </g>
+
+    <text class="mono" x="63" y="228" font-size="16" letter-spacing="5.5" fill="#7a8299">WEB · AI &amp; AUTOMATION</text>
+
+    <g class="sweep">
+      <rect x="-300" y="-80" width="300" height="460" fill="url(#shimmer)" transform="skewX(-22)"/>
+    </g>
+  </g>
+
+  <rect y="297" width="1200" height="3" fill="url(#accent)" mask="url(#mfade)"/>
+</svg>

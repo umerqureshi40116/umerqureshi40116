@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 8" width="1200" height="8" role="img" aria-label="">
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset=".5" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="f" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".12" stop-color="#fff" stop-opacity="1"/>
+      <stop offset=".88" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="m"><rect width="1200" height="8" fill="url(#f)"/></mask>
+    <filter id="g" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+  </defs>
+  <style>
+    .trav{animation:trav 7s ease-in-out infinite alternate}
+    @keyframes trav{from{transform:translateX(120px)}to{transform:translateX(1080px)}}
+    @media (prefers-reduced-motion:reduce){.trav{animation:none}}
+  </style>
+  <g mask="url(#m)">
+    <rect y="3.5" width="1200" height="1" fill="url(#a)" opacity=".45"/>
+    <g class="trav">
+      <circle cx="0" cy="4" r="3" fill="#38bdf8" filter="url(#g)"/>
+      <circle cx="0" cy="4" r="1.6" fill="#e0f2fe"/>
+    </g>
+  </g>
+</svg>
