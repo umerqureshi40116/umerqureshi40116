@@ -218,7 +218,8 @@ def font_face(chars):
     opts.layout_features = ["kern", "liga", "calt", "tnum"]
     sub = subset.Subsetter(opts)
     sub.populate(text="".join(sorted(chars | set(" "))))
-    font = TTFont(FONT_PATH)
+    # no fresh head.modified timestamp, so an unchanged build produces identical files
+    font = TTFont(FONT_PATH, recalcTimestamp=False)
     sub.subset(font)
     buf = io.BytesIO()
     font.save(buf)
