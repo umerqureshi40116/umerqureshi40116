@@ -78,6 +78,7 @@ def icon(name, x, y, size, color, fill="none", sw=2, cls=""):
 
 
 # ---------------------------------------------------------------- data (from the site)
+# same order as the Portfolio grid on codematically.com
 PROJECTS = [
     ("LLM · RAG", "ANF Chatbot", "RAG chatbot using LangGraph + Groq LLaMA 70B. 96% retrieval precision.",
      "1ADYD4-VLENIl5wpVcwQCjj3JnWEkcZ8u", "ANF_HQ_VERSION", "v1781295200/ANF_Chatbot_m6jcno.png"),
@@ -88,6 +89,17 @@ PROJECTS = [
      "v1781281256/ChatGPT_Image_Jun_12_2026_09_19_39_PM_1_vy6e0b.png"),
     ("ML · Classification", "Heart Disease Prediction", "Ensemble model (Random Forest + XGBoost) with 88% accuracy.",
      "1HyLwy8-XnjR05BhAOPoh0omCDKFYkSyK", "Heart_Disease_Prediction", "v1781295200/HDP_Thumbnail_vwfiwc.png"),
+    # No public repo for this one, so the code link falls back to the demo.
+    ("Unsupervised", "Customer Segmentation", "K-Means clustering & PCA on retail data for targeted marketing.",
+     "152FC1E_fZE-vGveqrK__TQ2Q6JxbNQKp", None, "v1781282179/CSP_Thumbnail_caajbp.png"),
+    ("Computer Vision", "Virtual Try-On System", "Cat-VTON garment segmentation at 95% accuracy, GPU batching.",
+     "16GL-KCXMQi7sjEXfRL6LpyvVGHMPqnRY", "CLOTHING_VIRTUAL_TRYON_WEB_APPLICATION",
+     "v1781282492/VTON_Thumbnail_levdeb.png"),
+    ("Full Stack AI", "AI Assisted Hospital MS", "3-hour rapid prototyping for job application.",
+     "17AdWAg5lq-rl8NKwfFUR9UU0q0Y2BSL1", "IMERA_AI_AI_POWERED_FULL_STACK_APPLICATION",
+     "v1781295583/Hospital_Thumbnail_lr931h.png"),
+    ("Classification", "Diabetes Prediction", "Logistic Regression & ANN with 92% accuracy, PIMA dataset.",
+     "1KZJoEwzb5ZG3J2yc3cKlH-Va0H_lggVm", "Diabetes_Risk_Prediction", "v1781295200/DDP_Thumbnail_pj8je8.png"),
     ("NLP · Compliance", "ComplianceGuard",
      "Call-centre compliance detector: TF-IDF + LinearSVC flags whether agents completed data-capture "
      "verification. 99.97% on 5-fold CV vs 81.3% keyword baseline.",
@@ -98,17 +110,6 @@ PROJECTS = [
      "Aggregate class predictions land 88-95% accurate.",
      "1YjrUK0bEge-1vks2XXU4U1NcXEu-KhB_", "student_class_estimator",
      "v1788712749/Student_Performance_Project_Thumbnail_zp2qzo.png"),
-    ("Computer Vision", "Virtual Try-On System", "Cat-VTON garment segmentation at 95% accuracy, GPU batching.",
-     "16GL-KCXMQi7sjEXfRL6LpyvVGHMPqnRY", "CLOTHING_VIRTUAL_TRYON_WEB_APPLICATION",
-     "v1781282492/VTON_Thumbnail_levdeb.png"),
-    ("Full Stack AI", "AI Assisted Hospital MS", "3-hour rapid prototyping for job application.",
-     "17AdWAg5lq-rl8NKwfFUR9UU0q0Y2BSL1", "IMERA_AI_AI_POWERED_FULL_STACK_APPLICATION",
-     "v1781295583/Hospital_Thumbnail_lr931h.png"),
-    ("Classification", "Diabetes Prediction", "Logistic Regression & ANN with 92% accuracy, PIMA dataset.",
-     "1KZJoEwzb5ZG3J2yc3cKlH-Va0H_lggVm", "Diabetes_Risk_Prediction", "v1781295200/DDP_Thumbnail_pj8je8.png"),
-    # No public repo for this one, so the code link falls back to the demo.
-    ("Unsupervised", "Customer Segmentation", "K-Means clustering & PCA on retail data for targeted marketing.",
-     "152FC1E_fZE-vGveqrK__TQ2Q6JxbNQKp", None, "v1781282179/CSP_Thumbnail_caajbp.png"),
 ]
 
 CERTS = [
